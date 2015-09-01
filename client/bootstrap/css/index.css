@@ -1,0 +1,92 @@
+body{
+	background-image: url('http://www.wallpaperup.com/uploads/wallpapers/2012/07/04/5256/690cf657788ea89a9ecabc258a0388f1.jpg');
+	/*background-size: contain;*/
+}
+.container-fluid{
+	/*height: 100vw;*/
+}
+/*login.html*/
+
+#login .greeting{
+	margin-top: 9em;
+}
+#login a.register{
+	display: block;
+	padding-top: 1.3em;
+}
+
+/*world*/
+#world{
+	height: 100vw;
+}
+.logout{
+	margin-top: 2em;
+}
+#world #button{
+	position: fixed;
+	right: 5%;
+	bottom: 5%;
+	font-size: 2em;
+}
+#world #button button{
+	vertical-align: top;
+	font-size: 1em;
+}
+#world .homes{
+	margin-top: 2em;
+}
+#world .panel{
+	text-align: center;
+	background-color: transparent;
+	border: none;
+}
+#world #newHome {
+	width: 6em;
+}
+/*home*/
+#home h2{
+	vertical-align: top;
+}
+#home #button{
+	position: fixed;
+	right: 5%;
+	bottom: 5%;
+}
+#home #trashBin{
+	position: fixed;
+	left: 5%;
+	bottom: 5%;
+	width: 50px;
+}
+#home li{
+	list-style-type: none;
+	overflow: auto;
+}
+#home ul{
+	box-shadow: none;
+}
+#home .duty{
+	min-height: 50px;
+}
+#home .btn-group input{
+	height: 32px;
+}
+#home .notDone{
+	background-color: indianred;
+}
+#home .done{
+	background-color: gray;
+}
+#home .choreCheck{
+	width: 2em;
+}
+#home .resets {
+	margin-top: .5em;
+	margin-left: 1em;
+}
+/*#home #family{
+	margin-left: 102px;
+}*/
+/*#home .familyMember{
+	width: 100px;
+}*/
